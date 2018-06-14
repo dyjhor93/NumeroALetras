@@ -16,7 +16,7 @@ public class NumeroALetras {
     }
     public static BigInteger pedirNumero(){
         BigInteger n=BigInteger.ZERO;
-        boolean esNumero=false;
+        boolean esNumero;
         do{
             try{
                 n=new BigInteger(JOptionPane.showInputDialog("Ingrese un numero: "));
